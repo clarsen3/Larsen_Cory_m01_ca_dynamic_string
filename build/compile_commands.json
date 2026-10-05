@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/build",
+  "command": "/usr/bin/clang++  -I\"/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/inc\" -g -std=c++23 -arch arm64 -o CMakeFiles/classLibrary.dir/src/DynamicString.cpp.o -c \"/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/src/DynamicString.cpp\"",
+  "file": "/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/src/DynamicString.cpp",
+  "output": "CMakeFiles/classLibrary.dir/src/DynamicString.cpp.o"
+},
+{
+  "directory": "/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/build",
+  "command": "/usr/bin/clang++  -I\"/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/inc\" -g -std=c++23 -arch arm64 -o CMakeFiles/DynamicStringTest.dir/src/DynamicStringTest.cpp.o -c \"/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/src/DynamicStringTest.cpp\"",
+  "file": "/Users/corylarsen/Downloads/School/Fall 2026/CS 2420/Module 1/Larsen_Cory_m01_ca_dynamic_string/src/DynamicStringTest.cpp",
+  "output": "CMakeFiles/DynamicStringTest.dir/src/DynamicStringTest.cpp.o"
+}
+]

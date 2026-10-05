@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20261005-0418-Experimental"
+	Name="Corys-MacBook-Air-2.local"
+	Generator="ctest-4.4.4"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="21.0.0.21000334"
+	OSName="macOS"
+	Hostname="Corys-MacBook-Air-2.local"
+	OSRelease="27.0.1"
+	OSVersion="26A434"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0.000000"
+	>
+	<Testing>
+		<StartDateTime>Oct 04 22:18 MDT</StartDateTime>
+		<StartTestTime>1791173904</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 04 22:18 MDT</EndDateTime>
+		<EndTestTime>1791173904</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

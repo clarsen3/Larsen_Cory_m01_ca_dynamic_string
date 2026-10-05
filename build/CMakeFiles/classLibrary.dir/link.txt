@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclassLibrary.a CMakeFiles/classLibrary.dir/src/DynamicString.cpp.o
+/usr/bin/ranlib libclassLibrary.a
