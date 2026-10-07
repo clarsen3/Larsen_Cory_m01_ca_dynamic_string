@@ -18,7 +18,7 @@
  * Certain methods assume an 8-bit ascii char representation.
  *
  * You are not allowed to remove or rename any of the
- * data memebers of methods from this class.  However
+ * data members of methods from this class.  However
  * you can add additional data members and methods as
  * you see fit.  You can also change the method
  * implementations as needed.
@@ -68,13 +68,13 @@ class DynamicString{
       int len() const;
 
       /** Get a copy of the character at the specified position.
-       * @param position the 0-based index to retreive.
+       * @param position the 0-based index to retrieve.
        * @return the character at the specified position.
        */
       char char_at(int position) const;
 
       /** Get a reference to the character at the specified position.
-       * @param position the 0-based index to retreive.
+       * @param position the 0-based index to retrieve.
        * @return the character at the specified position.
        */
       char& operator[](int position);
@@ -105,7 +105,7 @@ class DynamicString{
 
       /** Converts all characters to uppercase.
        * Contents are modified "in-place"
-       * @return self (the uppercased string)
+       * @return self (the uppercase string)
        */
       DynamicString& toUpper();
 
