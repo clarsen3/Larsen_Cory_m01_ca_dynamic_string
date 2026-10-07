@@ -26,6 +26,8 @@ DynamicString::DynamicString(const char* str){
    for(int i = 0; i < length; i++) {
       cstr[i] = str[i];
    }
+
+   cstr[length] = '\0';
 }
 
 DynamicString::DynamicString(const DynamicString& other){
@@ -134,20 +136,21 @@ bool DynamicString::endsWith(const DynamicString& other) const{
 int DynamicString::compare(const DynamicString& other) const{
    int i = 0;
    
-   while (cstr[i] != '\0' && other.cstr[i] != '\0') {
+   while(cstr[i] != '\0' && other.cstr[i] != '\0') {
       if (cstr[i] < other.cstr[i]) {
          return -1;
-      } else if (cstr[i] > other.cstr[i]) {
+      }
+      if (cstr[i] > other.cstr[i]) {
          return 1;
       }
       i++;
    }
 
-   if (cstr[i] == other.cstr[i]) {
+   if (cstr[i] == '\0' && other.cstr[i] == '\0') {
       return 0;
    }
 
-   return cstr[i] == '\0' ? -1 : 1;
+   return (cstr[i] == '\0') ? -1 : 1;
 }
 
 DynamicString& DynamicString::toLower(){
